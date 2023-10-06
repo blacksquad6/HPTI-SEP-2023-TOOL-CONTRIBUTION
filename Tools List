@@ -1,0 +1,56 @@
+Inviciti
+Invicti is a vulnerability scanner like Acunetix, and just like Acunetix, this system can also be used as a penetration testing tool. However, Invicti doesn’t have the internal network testing features of Acunetix, which is why this tool is our number two pick. The scans that this system offers mainly focuses on Web application vulnerabilities.
+
+Key Features:
+                SaaS package
+                External scanning viewpoint
+                CI/CD testing
+                Development planning integrations
+Why do we recommend it?
+Invicti is a Web vulnerability scanner that provides an AI-based inference system to spot illogical connections and configurations, which create security weaknesses. This insight identifies security loopholes that would not be spotted by traditional vulnerability lists and provides opportunities for investigations by penetration testers.
+
+The Invicti scan can be run constantly and automatically. However, for penetration testing, you would launch scans on demand. Invicti operates a browser-based crawler that tests for a known list of Web application vulnerabilities and then reports on them. This, therefore, is a research tool that a penetration tester would use to establish which types of attacks would be fruitful. Then, the actual attack would be implemented with another tool.
+
+Although this is an automated scanning system, each run can be customized. It is possible to limit the tests performed in a session, thus shortening the tool’s runtime. You can also set up specific parameters for each probe, which brings you closer to implementing an actual attack. Failed scans are good news and offer proof of system resilience. These reports can be used as part of data privacy standard compliance reporting.
+
+Who is it recommended for?
+This system is very similar to Acunetix and has the same use cases. You would use this system as a vulnerability scanner for live systems or as a continuous tester for Web applications under development. The tool can be used to provide pointers for deeper investigation by penetration testers.
+
+Pros:
+        A fast scanner for Web application vulnerabilities
+        Customizable probe conditions
+        Option for manual runs and continuous automated scans
+Cons:
+       Can’t implement attacks
+       No internal network scanning features
+       Invicti is a SaaS platform that can be used for system testing during Web app development and vulnerability scanning and penetration testing. It is possible to opt for the package as on-premises software that will run on Windows and Windows Server.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Ettercap
+Ettercap intercepts network traffic; it doesn’t block that traffic. It also facilitates masquerading and packet injection, so it can be used to hijack all of the routings on communications for all of the endpoints on a network or just one.
+
+Key Features:
+            Enables packet injection
+            ARP poisoning from within the network
+            DDoS testing
+
+Why do we recommend it?
+Ettercap is an impressive tool but its interface is a little clunky. This tool is quite old and it hasn’t been updated for a while. However, it is free and that makes it attractive to most penetration testers. The system provides traffic interception opportunities, which can be used to trick and also test configurations.
+
+The Ettercap interface is not very good. It is just a bespoke Terminal / Command Prompt screen. The whole Ettercap system is getting a little out of date and could do with a significant overhaul. However, the attack capabilities of this tool are compelling, which is why it is worth putting up with the feeble interface.
+
+Ettercap works by hijacking the addressing system of the network in traffic sent to a specific endpoint. That means you need to already be inside the network before you can use this tool. The system Ettercap uses to divert traffic is called ARP poisoning. The tool can also be used for Denial of Service attacks, man-in-the-middle attacks, and DNS hijacking.
+
+Ettercap is free forever, and it installs on Linux, Unix, Mac OS X, and Windows 7 and 8. Unfortunately, it doesn’t work on macOS or Windows 10.
+
+Who is it recommended for?
+Ettercap is definitely a penetration testing tool. It can also be used by real-world hackers. There isn’t any automation in this package, so it isn’t a vulnerability scanner or a continuous tester. You need to already be inside the network to use this system. It will now work on Windows 10.
+
+Pros:
+    Provides powerful support for a range of attacks
+    Lets you control the network traffic for one or many endpoints
+    Could be used for a range of spoofing attacks
+Cons:
+    Despite having an excellent backend, it has a terrible interface
+    Needs updating
+    No version for macOS or Windows 10
